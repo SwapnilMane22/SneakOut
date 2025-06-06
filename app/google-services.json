@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "804657218476",
+    "firebase_url": "https://sneak-out-5e27c.firebaseio.com",
+    "project_id": "sneak-out-5e27c",
+    "storage_bucket": "sneak-out-5e27c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:804657218476:android:53dd5b1d5cc689fc673009",
+        "android_client_info": {
+          "package_name": "com.example.sneak_out"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "804657218476-fn58lsotdnqj3mkddlmnbp01lm37tmpt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcmGL5DUQ68BPzOxvK27rQz29RcNDvR3s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "804657218476-fn58lsotdnqj3mkddlmnbp01lm37tmpt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

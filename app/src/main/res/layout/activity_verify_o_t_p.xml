@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDEFEF"
+    tools:context=".VerifyOTP">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <Button
+            android:id="@+id/closebutt"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:transitionName="splashlogoimage"
+            android:onClick="callLogin"
+            android:drawableTop="@drawable/close_button"/>
+
+        <TextView
+            android:id="@+id/codetxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/allerta_stencil"
+            android:text="@string/code"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:transitionName="splashtextimage"
+            android:includeFontPadding="false"
+            android:textSize="100sp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/veritxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/allerta_stencil"
+            android:text="@string/verification"
+            android:textAlignment="center"
+            android:includeFontPadding="false"
+            android:transitionName="signinup"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/otptxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/biorhyme"
+            android:includeFontPadding="false"
+            android:text="@string/enter_one_time_password_sent_to_your_registered_e_mail_id"
+            android:textAlignment="center"
+            android:textColor="@color/grey"
+            android:transitionName="userna"
+            android:textSize="20sp" />
+
+        <com.chaos.view.PinView
+            android:id="@+id/otpbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:itemCount="6"
+            app:itemWidth="50dp"
+            app:itemHeight="50dp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginTop="50dp"
+            app:lineColor="@color/black"
+            android:itemBackground="#0000"
+            style="@style/PinWidget.PinView"
+            android:inputType="number"
+            android:transitionName="passw"
+            android:cursorVisible="true"
+            app:cursorColor="@color/colorAccent"
+            app:itemRadius="5dp"/>
+
+        <Button
+            android:id="@+id/verifyotpbutt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:onClick="callSETNEW"
+            android:text="@string/verify_code"
+            android:layout_marginTop="40dp"
+            android:transitionName="buttgo"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+</ScrollView>

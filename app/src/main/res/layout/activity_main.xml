@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDEFEF"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/logowotext"
+            android:layout_width="match_parent"
+            android:layout_height="731dp"
+            android:contentDescription="@string/logo"
+            android:transitionName="splashlogoimage"
+            app:srcCompat="@drawable/sneak_out_logo_w_o_text" />
+
+        <ImageView
+            android:id="@+id/logotext"
+            android:layout_width="219dp"
+            android:layout_height="104dp"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/logotext"
+            android:paddingStart="25dp"
+            android:transitionName="splashtextimage"
+            app:srcCompat="@drawable/sneak_out_logo_text" />
+
+    </RelativeLayout>
+</ScrollView>
